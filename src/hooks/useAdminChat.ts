@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { toast } from 'sonner';
 
-const API_BASE = "https://chatapi-fgqu.onrender.com";
+const API_BASE = "https://chatapi101.onrender.com";
 
 export interface Message {
   id?: string | number | null;
